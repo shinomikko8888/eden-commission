@@ -3,7 +3,7 @@ import React from "react";
 export default function FooterNewsletter(props){
     return(
         <>
-            <div className="footer-newsletter">
+            <div className="footer-newsletter my-1">
                 <div className="row">
                     <div className="col-5">
                         <h6>Join our Newsletter</h6>

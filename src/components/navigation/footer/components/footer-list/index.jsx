@@ -4,7 +4,7 @@ export default function FooterList(props){
     const {item} = props 
     return(
         <>
-            <div className="footer-list px-4">
+            <div className="footer-list px-4 py-3">
                 <h6 className="mb-4">{item.title}</h6>
                 <ul>
                 {

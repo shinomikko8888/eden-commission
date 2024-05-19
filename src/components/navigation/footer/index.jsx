@@ -77,7 +77,7 @@ export default function Footer(){
                 </div>
                 <hr></hr>
                 
-                <div className="py-3 d-flex align-items-start justify-content-between">
+                <div className="d-flex align-items-start justify-content-between">
                     {
                         footerItems.map((item) => (
                             <FooterList item={item}></FooterList> // To make the code more concise, iterate over the footer items using a map and pass them as props to the component.
